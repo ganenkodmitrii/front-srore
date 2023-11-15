@@ -1,0 +1,116 @@
+ul,
+ol {
+  list-style: none;
+}
+
+/* Typography */
+h1,
+.h1 {
+  font: 700 36px/48px 'Inter', sans-serif;
+}
+h2,
+.h2 {
+  font: 600 24px/32px 'Inter', sans-serif;
+}
+h3,
+.h3 {
+  font: 600 18px/24px 'Inter', sans-serif;
+}
+h4,
+.h4 {
+  font: 600 14px/24px 'Inter', sans-serif;
+}
+h5,
+.h5 {
+  font: 600 14px/24px 'Inter', sans-serif;
+}
+
+.small-text-12 {
+  font: 400 12px/16px 'Inter', sans-serif;
+}
+.small-text-12-bold {
+  font: 600 12px/16px 'Inter', sans-serif;
+}
+.text-14 {
+  font: 400 14px/24px 'Inter', sans-serif;
+}
+.text-14-bold {
+  font: 600 14px/24px 'Inter', sans-serif;
+}
+.text-16 {
+  font: 400 16px/24px 'Inter', sans-serif;
+}
+.text-16-bold {
+  font: 600 16px/24px 'Inter', sans-serif;
+}
+.text-18 {
+  font: 400 18px/24px 'Inter', sans-serif;
+}
+
+.links-hover a:hover {
+  -webkit-text-stroke: 0.3px white;
+}
+
+::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+/* custom scroll bar */
+.scroll-y {
+  overflow-y: auto;
+}
+
+.scroll-y::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-y::-webkit-scrollbar-track {
+  background-color: var(--chakra-colors-gray-100);
+}
+
+.scroll-y::-webkit-scrollbar-thumb {
+  background-color: var(--chakra-colors-gray-300);
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.scroll-y::-webkit-scrollbar-thumb:hover {
+  background-color: var(--chakra-colors-gray-400);
+}
+
+.scroll-y::-webkit-scrollbar-thumb:active {
+  background-color: var(--chakra-colors-gray-500);
+}
+
+.scroll-y::-webkit-scrollbar-thumb:window-inactive {
+  background-color: var(--chakra-colors-gray-500);
+}
+
+.scroll-x {
+  overflow-x: auto;
+}
+
+.scroll-x::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scroll-x::-webkit-scrollbar-track {
+  background-color: var(--chakra-colors-gray-100);
+}
+
+.scroll-x::-webkit-scrollbar-thumb {
+  background-color: var(--chakra-colors-gray-300);
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.scroll-x::-webkit-scrollbar-thumb:hover {
+  background-color: var(--chakra-colors-gray-400);
+}
+
+.scroll-x::-webkit-scrollbar-thumb:active {
+  background-color: var(--chakra-colors-gray-500);
+}
+
+.scroll-x::-webkit-scrollbar-thumb:window-inactive {
+  background-color: var(--chakra-colors-gray-500);
+}
