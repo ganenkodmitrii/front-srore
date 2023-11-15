@@ -6,12 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "prepare": "husky install",
-    "lint-staged": "lint-staged",
-    "eslint": "eslint --fix src --max-warnings=0",
-    "types": "tsc -p ./tsconfig.json --noEmit true",
-    "prettier": "prettier --write src"
+    "lint": "next lint"
   },
   "dependencies": {
     "@chakra-ui/next-js": "^2.1.4",
